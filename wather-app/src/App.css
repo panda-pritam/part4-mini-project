@@ -22,11 +22,11 @@
   background-color: rgb(66, 175, 52);
   color: white;
 }
-.cardDiv {
+.weather-cards {
   display: flex;
   flex-wrap: wrap;
 }
-.weather-cards {
+.weather-card {
   width: 250px;
   height: 200px;
   border: 1px solid black;
