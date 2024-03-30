@@ -1,0 +1,47 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+}
+.inpDiv {
+  margin: 1rem;
+}
+#cityInput {
+  padding: 8px;
+  border-radius: 4px;
+  margin-right: 8px;
+  background-color: white;
+}
+.btn {
+  padding: 8px;
+  border-radius: 4px;
+  background-color: rgb(66, 175, 52);
+  color: white;
+}
+.cardDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 250px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-right: 8px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+
+.cardTitle {
+  text-align: center;
+}
+.cardData {
+  text-align: center;
+}
