@@ -13,22 +13,22 @@ function App() {
     setLoader(false);
     return (
       <div className="cardDiv">
-        <div className="card">
+        <div className="weather-cards">
           <h1 className="cardTitle">Temperature</h1>
           <h2 className="cardData">
             {data.temp_c}
             <span> &deg;C</span>
           </h2>
         </div>
-        <div className="card">
+        <div className="weather-cards">
           <h1 className="cardTitle">Humidity</h1>
           <h2 className="cardData">{data.humidity}%</h2>
         </div>
-        <div className="card">
+        <div className="weather-cards">
           <h1 className="cardTitle">Condition</h1>
           <h2 className="cardData">{data.condition.text}</h2>
         </div>
-        <div className="card">
+        <div className="weather-cards">
           <h1 className="cardTitle">Wind Speed</h1>
           <h2 className="cardData">{data.wind_kph} kph</h2>
         </div>

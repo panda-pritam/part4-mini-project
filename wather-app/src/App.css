@@ -26,7 +26,7 @@
   display: flex;
   flex-wrap: wrap;
 }
-.card {
+.weather-cards {
   width: 250px;
   height: 200px;
   border: 1px solid black;
